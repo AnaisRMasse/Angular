@@ -1,0 +1,27 @@
+<div class="header">
+    <h1 class="head">Pictura</h1>
+      <form #userForm="ngForm" class="head">
+        <input formControlName="search" type="text" name="Search" formControlName="Search" class="search" placeholder="Search">
+        <a class="SearchIcon"><button type="submit" routerLink="/search/art"><img src="../assets/img/search.png" width="12" height="12" readonly></button></a>
+        <a class="UploadPic"><button type="submit" routerLink="/upload"><img src="../assets/img/Camera.png" width="26" height="20" readonly></button></a>
+        <input type="text" name="Username" class="username" value=anais routerLink="/user/anais">
+        <input type="button" name="Log_out" value="Log out" routerLink="/">
+    </form>
+</div>
+<div class= "Post" *ngFor="let post of postList">
+    <a routerLink="/user/{{post.poster_username}}" routerLinkActive="active"><input type="text" name="PostUser" class="Username" value={{post.poster_username}} readonly></a>
+
+<div class="image">
+    <a routerLink="/post/{{post.post_url}}" routerLinkActive="active"><img src={{post.image}} width="500" height="500" readonly></a>
+</div>
+<form name="Post">
+    <div class="Likes">
+        <input type="text" name="LikesNumber" class="LikeCount" value={{post.likes_count}} readonly>
+        <img src="{{ showVar ? '../assets/img/Liked.png' : '../assets/img/Heart.png'}}" type="button" class="LikeIcon" width="30" height="20" (click)="toggleChild()"/>
+           <my-child [showMePartially]="showVar"></my-child>
+    </div>
+    
+      <p><input type="text" role="textbox" contenteditable name="description" class="Description" value={{post.description}} readonly></p>
+      <p class= 'post'>Posted on: <input type="text" name="posted_on" class="FormNoOutline" value={{post.posted_on}} readonly></p>
+  </form>
+</div>

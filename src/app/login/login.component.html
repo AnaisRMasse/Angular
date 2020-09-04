@@ -1,0 +1,18 @@
+<app-header></app-header>
+<h2>Your sign up was successful!</h2>
+<div class='LogBox'>
+    <h3>Log in</h3>
+    <form (ngSubmit)="onSubmit()" #userForm="ngForm">
+        <div class="form-group">
+            <input type="text" class="form-control" id="username" placeholder="Username"
+                   required
+                   [(ngModel)]="user.username" name="username">
+          </div>
+      
+          <div class="form-group">
+              <input type="password"  class="form-control" id="password" placeholder="Password"
+                   [(ngModel)]="user.password" name="password">
+          </div>
+          <button type="submit" class="btn btn-success" routerLink="/dashboard" [disabled]="!userForm.form.valid" >Log in</button>
+    </form>
+</div>

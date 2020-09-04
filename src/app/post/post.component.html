@@ -1,0 +1,18 @@
+<app-header-logged></app-header-logged>
+<div class= "Post" *ngFor="let post of postList">
+    <a routerLink="/user/{{post.poster_username}}" routerLinkActive="active"><input type="text" name="PostUser" class="Username" value={{post.poster_username}} readonly></a>
+
+<div class="image">
+    <a routerLink="/post/{{post.post_url}}" routerLinkActive="active"><img src={{post.image}} width="700" height="700" readonly></a>
+</div>
+<form name="Post">
+    <div>
+        <input type="text" name="LikesNumber" class="LikeCount" value={{post.likes_count}} readonly>
+        <img src="{{ showVar ? '../assets/img/Liked.png' : '../assets/img/Heart.png'}}" type="button" class="LikeIcon" width="30" height="20" (click)="toggleChild()"/>
+           <my-child [showMePartially]="showVar"></my-child>
+    </div>
+    
+      <p><input type="text" role="textbox" contenteditable name="description" class="Description" value={{post.description}} readonly></p>
+      <p class= 'post'>Posted on: <input type="text" name="posted_on" class="FormNoOutline" value={{post.posted_on}} readonly></p>
+  </form>
+</div>

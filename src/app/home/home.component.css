@@ -1,0 +1,104 @@
+.background {
+    background-color: papayawhip;
+    height: 100vh;
+  }
+  
+h2 {
+    margin-left: 600px;
+    font-family: Georgia;
+    color: indianred;
+    font-size: 30px;
+}
+
+h3 {
+    margin-top: 10px;
+    font-family: Georgia;
+    color: indianred;
+    font-size: 23px;
+}
+
+label {
+    font-family: Georgia;
+    color: indianred;
+}
+
+.col-md-15{
+    margin-right: 10px;
+}
+
+.btn-primary{
+    margin-top: 10px;
+    margin-left: 105px;
+    background-color: indianred;
+    color: papayawhip;
+    border-color: indianred;
+}
+
+  
+#WelcomeImage {
+      float: left;
+}
+  
+h3 {
+    padding-top: 25px;
+    font-size: 23px;
+    font-family: Georgia;
+    color: indianred;
+}
+  
+.SignBox {
+    background-color: peachpuff;
+    margin-left: 950px;
+    margin-right: 610px;
+    margin-top: 160px;
+    margin-bottom: 10px;
+}
+  
+.SignUp {
+    margin-top: 150px;
+}
+  
+.Sign {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+  
+p.Sign {
+    color: lightgray;
+}
+  
+.btn-success {
+    margin-left: 112px;
+  
+}
+.FormNoOutline1{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: peachpuff;
+    font-family: Georgia;
+    color: indianred;
+    font-size: 15px;
+}
+  
+.FormNoOutline2{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: papayawhip;
+    font-family: Georgia;
+    color: indianred;
+    font-size: 15px;
+}
+.form-control {
+    width: 220px;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 170px;
+}

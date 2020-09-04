@@ -1,0 +1,29 @@
+<app-header-logged></app-header-logged>
+<div class = "UserBox">
+<div class= "Users" *ngFor="let user of userList">
+    <a routerLink="/user/{{user.username}}" routerLinkActive="active"><input type="text" name="User" class="name" value={{user.username}} readonly></a>
+
+<div class="preview">
+    <a routerLink="/user/{{user.username}}" routerLinkActive="active"><img src={{user.profile_picture}} width="100" height="100" readonly></a>
+</div>
+<button class="follow" (click)="setFollow($event.target, 'Followed')">Follow</button>
+</div>
+</div>
+
+<div class= "Post" *ngFor="let post of postList">
+    <a routerLink="/user/{{post.poster_username}}" routerLinkActive="active"><input type="text" name="PostUser" class="Username" value={{post.poster_username}} readonly></a>
+
+<div class="image">
+    <a routerLink="/post/{{post.post_url}}" routerLinkActive="active"><img src={{post.image}} width="500" height="500" readonly></a>
+</div>
+<form name="Post">
+    <div>
+        <input type="text" name="LikesNumber" class="LikeCount" value={{post.likes_count}} readonly>
+        <img src="{{ showVar ? '../assets/img/Liked.png' : '../assets/img/Heart.png'}}" type="button" class="LikeIcon" width="30" height="20" (click)="toggleChild()"/>
+           <my-child [showMePartially]="showVar"></my-child>
+    </div>
+    
+      <p><input type="text" role="textbox" contenteditable name="description" class="Description" value={{post.description}} readonly></p>
+      <p class= 'post'>Posted on: <input type="text" name="posted_on" class="FormNoOutline" value={{post.posted_on}} readonly></p>
+  </form>
+</div>

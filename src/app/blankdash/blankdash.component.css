@@ -1,0 +1,165 @@
+
+.FormNoOutline{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-family: Georgia;
+    color: indianred;
+    background-color: seashell;
+    font-size: 15px;
+    width: 80px;
+}
+.Username{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-family: Georgia;
+    color: indianred;
+    background-color: seashell;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+.LikeCount{
+  border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-family: Georgia;
+    color: indianred;
+    background-color: seashell;
+    font-size: 16px;
+    margin-left: 550px;
+    display: inline-block;
+}
+.Post{
+    background-color: seashell;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 480px;
+    margin-right: 640px;
+}
+#dots{
+  margin-left: 250px;
+}
+.Comments{
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 1030px;
+}
+.LikeIcon{
+  margin-left: -130px;
+  opacity: 60%;
+  display: inline-block;
+  
+}
+.Description {
+  width: 550px;
+  height: 50px;
+  margin-left: 95px;
+  color: indianred;
+  background-color: seashell;
+  height: auto;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  font-size: 15px;
+  font-family: Georgia;
+  overflow-wrap: normal;
+}
+.image{
+  margin-left: 125px;
+}
+p{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: indianred;
+}
+.post{
+  margin-left: 450px;
+}
+
+body {
+  background-color: papayawhip;
+}
+
+.header{
+  background-color: peachpuff;
+}
+a {
+  color:  indianred;
+}
+h1{
+  display:inline-block
+}
+.head {
+  margin-left: 20px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: indianred;
+  display: inline-block;
+}
+
+.search {
+  width: 500px;
+  margin-left: 450px;
+  display: inline-block;
+}
+
+h2 {
+  margin-left: 620px;
+  margin-top: 100px;
+  font-family: Georgia;
+  color: indianred;
+  font-weight: bold;
+  display: inline-block;
+}
+h3 {
+    margin-left: 750px;
+    margin-top: 100px;
+    font-family: Georgia;
+    color: indianred;
+    font-weight: bold;
+    display: inline-block;
+  }
+.inputbox{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.btn-primary{
+  margin-left: 100px;
+  background-color: indianred;
+  color: papayawhip;
+  border-color: indianred;
+  display: inline-block;
+}
+.username{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  font-family: Georgia;
+  font-weight: bold;
+  background-color: peachpuff;
+  color: indianred;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.SearchIcon{
+  display: inline-block;
+}
+
+.UploadPic{
+  margin-left: 330px;
+}

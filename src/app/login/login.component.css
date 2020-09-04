@@ -1,0 +1,38 @@
+h2 {
+    margin-left: 720px;
+    margin-top: 100px;
+    font-family: Georgia;
+    color: indianred;
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-left: 170px;
+    font-family: Georgia;
+    color: indianred;
+    font-size: 23px;
+}
+
+.LogBox{
+    background-color: peachpuff;
+    margin-left: 650px;
+    margin-right: 830px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    height: 20px;
+    width: 390px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 180px;
+}

@@ -1,0 +1,7 @@
+<div class= "UserPosts" *ngFor="let post of postList">
+    <form name="Posts">
+        <div class="header">
+            <a routerLink="/post/{{post.post_url}}" routerLinkActive="active"><img src={{post.image}} width="650" height="650"></a>
+        </div>
+    </form>
+</div>

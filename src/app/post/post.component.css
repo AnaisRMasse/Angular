@@ -1,0 +1,87 @@
+
+.FormNoOutline{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-family: Georgia;
+    color: indianred;
+    background-color: seashell;
+    font-size: 15px;
+    width: 80px;
+}
+.Username{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-family: Georgia;
+    color: indianred;
+    background-color: seashell;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+.LikeCount{
+  border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-family: Georgia;
+    color: indianred;
+    background-color: seashell;
+    font-size: 16px;
+    margin-left: 550px;
+    display: inline-block;
+}
+.Post{
+    background-color: seashell;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 480px;
+    margin-right: 640px;
+}
+#dots{
+  margin-left: 250px;
+}
+.Comments{
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 1030px;
+}
+.LikeIcon{
+  margin-left: -130px;
+  opacity: 60%;
+  display: inline-block;
+  
+}
+.Description {
+  width: 550px;
+  height: 50px;
+  margin-left: 95px;
+  color: indianred;
+  background-color: seashell;
+  height: auto;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  font-size: 15px;
+  font-family: Georgia;
+  overflow-wrap: normal;
+}
+.image{
+  margin-left: 25px;
+}
+p{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: indianred;
+}
+.post{
+  margin-left: 450px;
+}

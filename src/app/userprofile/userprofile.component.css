@@ -1,0 +1,106 @@
+.userProfile {
+    margin-top: 100px;
+    position: relative;
+}
+  h2 {
+      margin-left: 330px;
+      font-family: Georgia;
+      color: indianred;
+  }
+  .name{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-family: Georgia;
+    color: indianred;
+    background-color: seashell;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 40px;
+
+  }
+  .description{
+    width: 670px;
+    margin-left: 10px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-family: Georgia;
+    color: indianred;
+    background-color: seashell;
+    font-size: 16px;
+  }
+  .username{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-family: Georgia;
+    color: indianred;
+    background-color: seashell;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    margin-left: 130px;
+  }
+  .header{
+    display: inline-block;
+    background-color: seashell;
+    margin-left: 500px;
+    width:700px; 
+    max-width:700px; 
+  }
+  .profile{
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 420px;
+      margin-right: 775px;
+  
+  }
+  .picturesBlock{
+      background-color: floralwhite;
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 30px;
+      margin-right: 775px;
+  }
+  .Avatar{
+    display: inline-block;
+    padding: 10px;
+
+  }
+  .info{
+      background-color: peachpuff;
+      margin-right: 340px;
+  }
+  #EditProfile{
+      margin-left: 0px;
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 450px;
+      display: inline-block;
+  }
+  hr{
+    margin-left: 500px;
+    width:700px; 
+    max-width:700px; 
+    border: 1px solid lightsalmon;
+    opacity: 70%;
+  }
+
+  .head2 {
+    margin-left: 20px;
+    font-family: Georgia;
+    font-weight: bold;
+    color: indianred;
+    display: inline-block;
+  }
+  .header2{
+    background-color: peachpuff;
+  }

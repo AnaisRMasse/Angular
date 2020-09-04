@@ -1,0 +1,14 @@
+<app-header-logged></app-header-logged>
+<div class= "UserProfile" *ngFor="let user of userList">
+    <form name="Profile">
+        <h1></h1>
+<div class="header">
+    <a class="Avatar"><img src={{user.profile_picture}} width="100" height="100"></a>
+    <input type="text" name="Username" class="username" value={{user.username}} readonly> 
+    <input type="text" name="FullName" class="name" value={{user.name}} readonly>
+    <p><input type="text" name="Bio" class="description" value={{user.bio}} readonly></p>
+</div>
+    </form>
+</div>
+<hr>
+<app-userposts></app-userposts>

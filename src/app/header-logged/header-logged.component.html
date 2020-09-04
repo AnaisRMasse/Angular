@@ -1,0 +1,10 @@
+<div class="header">
+    <h1 class="head" routerLink="/dashboard/anais">Pictura</h1>
+      <form #userForm="ngForm" class="head">
+        <input formControlName="search" type="text" name="Search" formControlName="Search" class="search" placeholder="Search">
+        <a class="SearchIcon"><button type="submit" routerLink="/search/art"><img src="../assets/img/search.png" width="12" height="12" readonly></button></a>
+        <a class="UploadPic"><button type="submit" routerLink="/upload"><img src="../assets/img/Camera.png" width="26" height="20" readonly></button></a>
+        <input type="text" name="Username" class="username" value=anais routerLink="/user/anais">
+        <input type="button" name="Log_out" value="Log out" routerLink="/">
+    </form>
+</div>
